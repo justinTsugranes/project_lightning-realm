@@ -3,12 +3,15 @@ import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
-export default defineConfig({
-  name: 'default',
-  title: 'sanity_tmm',
+const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!
+const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!
 
-  projectId: 'gx85hppp',
-  dataset: 'production',
+export default defineConfig({
+  basePath: '/studio',
+  name: 'Total_Music_Marketing',
+  title: 'Total Music Marketing',
+  projectId,
+  dataset,
 
   plugins: [deskTool(), visionTool()],
 
