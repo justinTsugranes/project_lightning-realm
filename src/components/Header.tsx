@@ -9,8 +9,8 @@ const Header = () => {
           <Image
             className="rounded-full"
             src="/TotalMusicMarketingLogo.png"
-            width={50}
             height={50}
+            width={50}
             alt="logo"
           ></Image>
         </Link>
