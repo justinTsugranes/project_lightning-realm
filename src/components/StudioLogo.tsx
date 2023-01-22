@@ -8,7 +8,7 @@ const StudioLogo = (props: any) => {
         className="rounded-full object-cover"
         width={50}
         height={50}
-        src="/../TotalMusicMarketingLogo.png"
+        src="/TotalMusicMarketingLogo.png"
         alt="logo"
       />
       <>{renderDefault(props)}</>
