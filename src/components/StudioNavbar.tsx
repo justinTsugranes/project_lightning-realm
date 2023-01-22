@@ -12,7 +12,7 @@ const StudioNavbar = (props: any) => {
         <div className="hidden md:flex p-5 rounded-lg justify-center border-2 border-[#F7ab0a]">
           <h1 className="font-bold text-white">Created by misfitDodo Media</h1>
           <Link className="text-[#f7ab0a] font-bold ml-2" href="https://www.misfitdodo.com">
-            wwww.misfitdodo.com
+            www.misfitdodo.com
           </Link>
         </div>
       </div>
