@@ -3,7 +3,7 @@ import {buildLegacyTheme} from 'sanity'
 const props = {
   '--my-white': '#fff',
   '--my-black': '#1a1a1a',
-  '--my-brand': '#1999b5',
+  '--my-brand': '#0cb3d5',
   '--my-gray': '#666',
   '--my-gray-base': '#666',
   '--my-red': '#db4437',
