@@ -16,7 +16,14 @@ const Header = () => {
         </Link>
       </div>
 
-      <div></div>
+      <div>
+        <Link
+          className="px-5 py-3 tet-sm md:text-base bg-gray-900 text-[#1999b5] flex items-center rounded-full text-center"
+          href="https://www.totalmusicmarketing.com/contact-us"
+        >
+          Contact us now
+        </Link>
+      </div>
     </header>
   )
 }

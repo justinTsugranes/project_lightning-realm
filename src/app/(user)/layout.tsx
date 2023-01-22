@@ -1,4 +1,5 @@
 import Header from '@/components/Header'
+import Banner from '@/components/Banner'
 import '../globals.css'
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
@@ -11,6 +12,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
 
       <body>
         <Header />
+        <Banner />
         {children}
       </body>
     </html>
