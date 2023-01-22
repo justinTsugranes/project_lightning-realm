@@ -12,7 +12,9 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
 
       <body>
         <Header />
+
         <Banner />
+
         {children}
       </body>
     </html>
