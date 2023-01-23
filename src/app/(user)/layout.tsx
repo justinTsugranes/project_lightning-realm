@@ -10,7 +10,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
 
-      <body>
+      <body className="max-w-7xl mx-auto">
         <Header />
 
         <Banner />
