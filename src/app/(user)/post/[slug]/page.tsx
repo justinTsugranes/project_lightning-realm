@@ -14,16 +14,16 @@ async function Post({params: {slug}}: Props) {
   const query = groq`
     *[_type == "post" && slug.current == $slug][0] {
       ...,
-      author-> {
-        name,
-        image
-      }
-      ,categories[]->,
+      author->,
+      categories[]->,
     }
   `
   // [_type == "post" && slug.current == $slug][0] {
   //   ...,
-  //   author->,
+  //   author->{
+  //   name,
+  //   image
+  // },
   //   categories[]->,}
 
   const post = await sanityClient.fetch(query, {slug})
@@ -71,7 +71,7 @@ async function Post({params: {slug}}: Props) {
             </div>
 
             <div>
-              <h2 className="italix pt-10">{post.description}</h2>
+              <h2 className="italic pt-10">{post.description}</h2>
               <div className="flex items-center justify-end mt-auto space-x-2">
                 {post.categories.map((category) => (
                   <p
@@ -86,6 +86,8 @@ async function Post({params: {slug}}: Props) {
           </section>
         </div>
       </section>
+
+      <PortableText value={post.body} components={RichTextComponents} />
     </article>
   )
 }
