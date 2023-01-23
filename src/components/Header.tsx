@@ -18,7 +18,7 @@ const Header = () => {
 
       <div>
         <Link
-          className="px-5 py-3 tet-sm md:text-base bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-pink-500 hover:to-yellow-500 flex items-center rounded-full text-center"
+          className="px-5 py-3 tet-sm md:text-base bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-pink-500 hover:to-yellow-500 flex items-center rounded-full text-center drop-shadow-md"
           href="https://www.totalmusicmarketing.com/contact-us"
         >
           Contact us now

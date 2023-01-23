@@ -2,9 +2,9 @@ function Banner() {
   return (
     <div className="flex flex-col lg:flex-row lg:space-x-5 justify-between font-bold px-10 py-5 mb-10">
       <div>
-        <h1 className="text-7xl">
+        <h1 className="text-7xl drop-shadow-md">
           Total{' '}
-          <span className="bg-gradient-to-r from-cyan-500 to-blue-500 inline-block text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-cyan-500 to-blue-500 inline-block text-transparent bg-clip-text drop-shadow-md">
             Music
           </span>{' '}
           Marketing
@@ -15,7 +15,7 @@ function Banner() {
         </h2>
       </div>
 
-      <p className="mt-5 md:mt-2 text-gray-400 max-w-sm">
+      <p className="mt-5 md:mt-2 text-gray-400 max-w-sm drop-shadow-md">
         Thrive in the New Music Business | Weekly seminars & more!
       </p>
     </div>
