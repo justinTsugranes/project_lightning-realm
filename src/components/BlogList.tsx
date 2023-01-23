@@ -1,8 +1,8 @@
-import {Post} from 'typings'
-import urlFor from 'lib/urlFor'
 import Image from 'next/image'
 import {ArrowUpRightIcon} from '@heroicons/react/24/solid'
-import ClientSideRoute from '../components/ClientSideRoute'
+import {Post} from 'typings'
+import urlFor from 'lib/urlFor'
+import ClientSideRoute from './ClientSideRoute'
 
 type Props = {
   posts: Post[]
@@ -39,7 +39,10 @@ function BlogList({posts}: Props) {
 
                   <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
                     {post.categories.map((category) => (
-                      <div className="bg-[#0cb3d5] text-center text-black px-3 py-1 rounded-full text-sm font-semibold">
+                      <div
+                        className="bg-[#0cb3d5] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"
+                        key={post._id}
+                      >
                         <p>{category.title}</p>
                       </div>
                     ))}
