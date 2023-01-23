@@ -23,6 +23,7 @@
     "@portabletext/react": "^2.0.0",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.0.0",
+    "@tailwindcss/line-clamp": "^0.4.2",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
