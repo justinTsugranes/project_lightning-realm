@@ -11,6 +11,22 @@ type Props = {
   }
 }
 
+export const revalidate = 60 // In seconds
+
+export async function generateStaticParams() {
+  const query = groq`
+    *[_type == "post"] {
+      slug,
+    }
+  `
+  const slugs = await sanityClient.fetch(query)
+  const slugRoutes = slugs.map((slug: any) => slug.slug.current)
+
+  return slugRoutes.map((slug: any) => ({
+    slug,
+  }))
+}
+
 async function Post({params: {slug}}: Props) {
   const query = groq`
     *[_type == "post" && slug.current == $slug][0] {
@@ -19,13 +35,6 @@ async function Post({params: {slug}}: Props) {
       categories[]->,
     }
   `
-  // [_type == "post" && slug.current == $slug][0] {
-  //   ...,
-  //   author->{
-  //   name,
-  //   image
-  // },
-  //   categories[]->,}
 
   const post = await sanityClient.fetch(query, {slug})
 
@@ -74,7 +83,7 @@ async function Post({params: {slug}}: Props) {
             <div>
               <h2 className="italic pt-10">{post.description}</h2>
               <div className="flex items-center justify-end mt-auto space-x-2">
-                {post.categories.map((category) => (
+                {post.categories.map((category: any) => (
                   <p
                     key={category._id}
                     className="bg-gray-800 text-white px-3 py-1 rounded-full text-sm font-semibold mt-4"
