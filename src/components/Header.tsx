@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header className="flex justify-between space-x-2 items-center  font-bold px-10 py-5">
+    <header className="flex items-center justify-between space-x-2  px-10 py-5 font-bold">
       <div className="flex items-center space-x-2">
         <Link href="/">
           <Image
@@ -18,7 +18,7 @@ const Header = () => {
 
       <div>
         <Link
-          className="px-5 py-3 tet-sm md:text-base bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-pink-500 hover:to-yellow-500 flex items-center rounded-full text-center drop-shadow-md"
+          className="tet-sm flex items-center rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-3 text-center drop-shadow-md hover:from-pink-500 hover:to-yellow-500 md:text-base"
           href="https://www.totalmusicmarketing.com/contact-us"
         >
           Contact us now

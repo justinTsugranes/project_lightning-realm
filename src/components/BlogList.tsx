@@ -11,21 +11,21 @@ type Props = {
 function BlogList({posts}: Props) {
   return (
     <div>
-      <hr className="border-[#0cb3d5] mb-10" />
+      <hr className="mb-10 border-[#0cb3d5]" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-10 gap-y-16 pb-24">
+      <div className="grid grid-cols-1 gap-10 gap-y-16 px-10 pb-24 md:grid-cols-2">
         {/* Posts */}
         {posts.map((post) => (
           <ClientSideRoute key={post._id} route={`/post/${post.slug.current}`}>
-            <div className="flex flex-col group cursor-pointer">
-              <div className="relative w-full h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out">
+            <div className="group flex cursor-pointer flex-col">
+              <div className="relative h-80 w-full drop-shadow-xl transition-transform duration-200 ease-out group-hover:scale-105">
                 <Image
                   className="object-cover object-left lg:object-center"
                   src={urlFor(post.mainImage).url()}
                   alt={post.author.name}
                   fill
                 />
-                <div className="absolute bottom-0 w-full bg-opacity-20 bg-black backdrop-blur-lg rounded drop-shadow-lg text-white p-5 flex justify-between">
+                <div className="absolute bottom-0 flex w-full justify-between rounded bg-black bg-opacity-20 p-5 text-white drop-shadow-lg backdrop-blur-lg">
                   <div>
                     <p className="font-bold">{post.title}</p>
                     <p>
@@ -37,10 +37,10 @@ function BlogList({posts}: Props) {
                     </p>
                   </div>
 
-                  <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
+                  <div className="flex flex-col items-center gap-y-2 md:flex-row md:gap-x-2">
                     {post.categories.map((category) => (
                       <div
-                        className="bg-[#0cb3d5] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"
+                        className="rounded-full bg-[#0cb3d5] px-3 py-1 text-center text-sm font-semibold text-black"
                         key={post._id}
                       >
                         <p>{category.title}</p>
@@ -51,11 +51,11 @@ function BlogList({posts}: Props) {
               </div>
 
               <div className="mt-5 flex-1">
-                <p className="underline text-lg font-bold">{post.title}</p>
-                <p className="line-clamp-2 text-gray-500">{post.description}</p>
+                <p className="text-lg font-bold underline">{post.title}</p>
+                <p className="text-gray-500 line-clamp-2">{post.description}</p>
               </div>
 
-              <p className="mt-5 font-bold flex items-center group-hover:underline">
+              <p className="mt-5 flex items-center font-bold group-hover:underline">
                 Read Post
                 <ArrowUpRightIcon className="ml-2 h-4 w-4" />
               </p>

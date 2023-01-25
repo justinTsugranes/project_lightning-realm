@@ -41,18 +41,18 @@ async function Post({params: {slug}}: Props) {
   return (
     <article className="px-10 pb-28">
       <section className="space-y-2 border border-[#0cb3d5] text-white">
-        <div className="relative min-h-56 flex flex-col md:flex-row justify-between">
-          <div className=" absolute top-0 w-full h-full opacity-10 blur-sm p-10">
+        <div className="min-h-56 relative flex flex-col justify-between md:flex-row">
+          <div className=" absolute top-0 h-full w-full p-10 opacity-10 blur-sm">
             <Image
-              className="object-cover object-center mx-auto"
+              className="mx-auto object-cover object-center"
               src={urlFor(post.mainImage).url()}
               alt={post.author.name}
               fill
             />
           </div>
 
-          <section className="p-5 bg-[#0cb3d5] w-full">
-            <div className="flex flex-col md:flex-row justify-between gap-y-5">
+          <section className="w-full bg-[#0cb3d5] p-5">
+            <div className="flex flex-col justify-between gap-y-5 md:flex-row">
               <div>
                 <h1 className="text-4xl font-extrabold">{post.title}</h1>
 
@@ -81,12 +81,12 @@ async function Post({params: {slug}}: Props) {
             </div>
 
             <div>
-              <h2 className="italic pt-10">{post.description}</h2>
-              <div className="flex items-center justify-end mt-auto space-x-2">
+              <h2 className="pt-10 italic">{post.description}</h2>
+              <div className="mt-auto flex items-center justify-end space-x-2">
                 {post.categories.map((category: any) => (
                   <p
                     key={category._id}
-                    className="bg-gray-800 text-white px-3 py-1 rounded-full text-sm font-semibold mt-4"
+                    className="mt-4 rounded-full bg-gray-800 px-3 py-1 text-sm font-semibold text-white"
                   >
                     {category.title}
                   </p>

@@ -21,7 +21,7 @@ export default async function Home() {
       <PreviewSuspense
         fallback={
           <div role="status">
-            <p className="text-center text-lg animate-pulse text-[#0cb3d5]">
+            <p className="animate-pulse text-center text-lg text-[#0cb3d5]">
               Loading Preview Data...
             </p>
           </div>
