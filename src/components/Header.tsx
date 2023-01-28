@@ -8,7 +8,7 @@ const Header = () => {
         <Link href="/">
           <Image
             className="rounded-full"
-            src="/TotalMusicMarketingLogo.png"
+            src="/lightning-realm.png"
             height={50}
             width={50}
             alt="logo"

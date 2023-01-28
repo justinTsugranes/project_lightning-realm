@@ -1,23 +1,16 @@
 <a name="readme-top"></a>
 
-<!-- TODO: INSERT STATUS BADGES HERE -->
 <!-- STATUS BADGES -->
 
 <!-- PROJECT HEADING -->
 <br />
 <div align="center">
   <a href="https://github.com/justintsugranes/">
-    <img src="public/logo.png" alt="Logo" width="100%" height="100%">
+    <img src="public/logo.jpeg" alt="Logo" width="100%" height="100%">
   </a>
 </div>
 
-<!-- TODO: CHANGE PROJECT TITLE -->
-
-### [Total Music Marketing][project-url]
-
-<!-- TODO: ADD SHORT PROJECT DESCRIPTION -->
-
-Stand out from all of the noise and connect with us so that we can Scale Your Music Career!
+### [theLightningRealm][project-url]
 
 [Explore the docs][repo-url] --- [View Demo][project-url] --- [Report Bug][issues-url]
 
@@ -49,13 +42,13 @@ Stand out from all of the noise and connect with us so that we can Scale Your Mu
 
 [![Project Screen Shot][project-screenshot]][project-url] [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url]
 
-The Total Music Marketing website is a Next.js and Sanity.io-based project to showcase their services and blog posts. The website uses the Sanity Studio to manage the content and Next.js and React to build the frontend. It is built with TypeScript and uses styled-components and TailwindCSS for styling.
+theLightningRealm is a blog that explores the latest in web development and emerging technologies. Our goal is to provide our readers with in-depth coverage of the most modern tools and trends in the technology space. From React.js and Next.js to Blockchain, AI, and Machine Learning, we cover the full spectrum of technologies that are shaping the future of web development.
 
-The website also uses the Sanity plugins such as vision and iframe-pane, and the Sanity preview API to show the changes made in the Sanity Studio in real-time. The Sanity studio also has custom branding for TMM that includes their logo and brand colors throughout the CMS.
+Our team of industry experts provides expert analysis, tutorials, and best practices to help developers stay ahead of the curve. In addition to deep-diving into specific technologies, we also discuss the broader trends and developments in the tech industry.
+
+Join us as we navigate the ever-evolving landscape of web development and emerging technologies.
 
 _I'd love to hear any feedback or just thoughts. Feel free to reach out at my contact info below. Cheers!_
-
-<!-- TODO: UNCOMMENT APPLICABLE TECH -->
 
 ### Stack
 
@@ -141,11 +134,13 @@ _I'd love to hear any feedback or just thoughts. Feel free to reach out at my co
   <!-- [![jira]][jira-url] -->
   <!-- [![notion]][notion-url] -->
 
-<!-- #### Deployment / Hosting -->
+#### Deployment / Hosting
 
 <!-- [![heroku]][heroku-url] -->
 <!-- [![netlify]][netlify-url] -->
-<!-- [![vercel]][vercel-url] -->
+
+[![vercel]][vercel-url]
+
 <!-- [![stackblitz]][stackblitz-url] -->
 
 <!-- [![chrome-web-store]][chrome-web-store-url] -->
@@ -340,18 +335,18 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [project-screenshot]: public/project-screenshot.jpg
-[project-url]: https://totalmusicmarketing.vercel.app/
-[repo-url]: https://github.com/justintsugranes/project_total-music-marketing.git
-[contributors-shield]: https://img.shields.io/github/contributors/justintsugranes/project_total-music-marketing.svg?style=for-the-badge
-[contributors-url]: https://github.com/justintsugranes/project_total-music-marketing/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/justintsugranes/project_total-music-marketing.svg?style=for-the-badge
-[forks-url]: https://github.com/justintsugranes/project_total-music-marketing/network/members
-[stars-shield]: https://img.shields.io/github/stars/justintsugranes/project_total-music-marketing.svg?style=for-the-badge
-[stars-url]: https://github.com/justintsugranes/project_total-music-marketing/stargazers
-[issues-shield]: https://img.shields.io/github/issues/justintsugranes/project_total-music-marketing.svg?style=for-the-badge
-[issues-url]: https://github.com/justintsugranes/project_total-music-marketing/issues
-[license-shield]: https://img.shields.io/github/license/justintsugranes/project_total-music-marketing.svg?style=for-the-badge
-[license-url]: https://github.com/justinTsugranes/project_total-music-marketing/blob/main/LICENSE.md
+[project-url]: https://thelightningrealm.vercel.app/
+[repo-url]: https://github.com/justintsugranes/project_lightning-realm.git
+[contributors-shield]: https://img.shields.io/github/contributors/justintsugranes/project_lightning-realm.svg?style=for-the-badge
+[contributors-url]: https://github.com/justintsugranes/project_lightning-realm/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/justintsugranes/project_lightning-realm.svg?style=for-the-badge
+[forks-url]: https://github.com/justintsugranes/project_lightning-realm/network/members
+[stars-shield]: https://img.shields.io/github/stars/justintsugranes/project_lightning-realm.svg?style=for-the-badge
+[stars-url]: https://github.com/justintsugranes/project_lightning-realm/stargazers
+[issues-shield]: https://img.shields.io/github/issues/justintsugranes/project_lightning-realm.svg?style=for-the-badge
+[issues-url]: https://github.com/justintsugranes/project_lightning-realm/issues
+[license-shield]: https://img.shields.io/github/license/justintsugranes/project_lightning-realm.svg?style=for-the-badge
+[license-url]: https://github.com/justinTsugranes/project_lightning-realm/blob/main/LICENSE.md
 
 <!-- TODO: UNCOMMENT USED TECH -->
 <!-- TECH SHIELD VARIABLES -->
@@ -360,16 +355,20 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 
 <!-- [angular]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [angular-url]: https://angular.io/ -->
-<!-- [javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white
-[javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript -->
+
+[javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white
+[javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
 <!-- [jquery]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [jquery-url]: https://jquery.com -->
 <!-- [laravel]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [laravel-url]: https://laravel.com -->
-<!-- [next]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[next-url]: https://nextjs.org/ -->
-<!-- [react]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[react-url]: https://reactjs.org/ -->
+
+[next]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[next-url]: https://nextjs.org/
+[react]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+
 <!-- [svelte]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [svelte-url]: https://svelte.dev/ -->
 <!-- [vue]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
@@ -398,8 +397,9 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 [chakra-ui-url]: https://chakra-ui.com/ -->
 <!-- [material-ui]: https://img.shields.io/badge/MaterialUI-007FFF?style=for-the-badge&logo=mui&logoColor=white
 [material-ui-url]: https://mui.com/ -->
-<!-- [tailwind]: https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
-[tailwind-url]: https://tailwindcss.com/ -->
+
+[tailwind]: https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
+[tailwind-url]: https://tailwindcss.com/
 
 <!-- MOBILE -->
 
@@ -412,6 +412,8 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 
 <!-- [fontawesome]: https://img.shields.io/badge/FontAwesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white
 [fontawesome-url]: https://fontawesome.com/ -->
+<!-- [heroicons]: https://img.shields.io/badge/HeroIcons-528DD7?style=for-the-badge&logo=heroicons&logoColor=white
+[heroicons-url]: https://heroicons.com/ -->
 <!-- [framer]: https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white
 [framer-url]: https://www.framer.com/motion/ -->
 <!-- [storybook]: https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white
@@ -461,6 +463,8 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 [contentful-url]: https://www.contentful.com/ -->
 <!-- [strapi]: https://img.shields.io/badge/Strapi-2F2E8B?style=for-the-badge&logo=strapi&logoColor=white
 [strapi-url]: https://strapi.io/ -->
+<!-- [sanity]: https://img.shields.io/badge/Sanity-2F2E8B?style=for-the-badge&logo=sanity&logoColor=white
+[sanity-url]: https://sanity.io/ -->
 
 <!-- AUTH / SECURITY-->
 
@@ -507,8 +511,10 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 [heroku-url]: https://www.heroku.com/ -->
 <!-- [netlify]: https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white
 [netlify-url]: https://www.netlify.com/ -->
-<!-- [vercel]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
-[vercel-url]: https://vercel.com/ -->
+
+[vercel]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+[vercel-url]: https://vercel.com/
+
 <!-- TODO EDIT BADGE -->
 <!-- [chrome-web-store]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
 [chrome-web-store-url]: https://vercel.com/ -->
@@ -528,9 +534,10 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 
 <!-- DEV -->
 
-<!-- [eslint]: https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white
-[eslint-url]: https://eslint.org/ -->
-<!-- [prettier]: https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white
-[prettier-url]: https://prettier.io/ -->
+[eslint]: https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white
+[eslint-url]: https://eslint.org/
+[prettier]: https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white
+[prettier-url]: https://prettier.io/
+
 <!-- [copilot]: https://img.shields.io/badge/CoPilot-181717?style=for-the-badge&logo=github&logoColor=white
 [copilot-url]: https://github.com/features/copilot -->
