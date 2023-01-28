@@ -12,6 +12,8 @@
 
 ### [theLightningRealm][project-url]
 
+In-depth coverage of the most modern tools and trends in the technology space that are shaping the future.
+
 [Explore the docs][repo-url] --- [View Demo][project-url] --- [Report Bug][issues-url]
 
 <!-- TABLE OF CONTENTS -->
