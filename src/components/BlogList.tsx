@@ -11,7 +11,7 @@ type Props = {
 function BlogList({posts}: Props) {
   return (
     <div>
-      <hr className="mb-10 border-[#0cb3d5]" />
+      {/* <hr className="mb-10 border-[#0cb3d5]" /> */}
 
       <div className="grid grid-cols-1 gap-10 gap-y-16 px-10 pb-24 md:grid-cols-2">
         {/* Posts */}

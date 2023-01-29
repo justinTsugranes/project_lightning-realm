@@ -56,16 +56,15 @@ _I'd love to hear any feedback or just thoughts. Feel free to reach out at my co
 
 #### Frontend
 
-<!-- - **Web** -->
+- **Web**
   <!-- [![angular]][angular-url] -->
 
+[![next]][next-url]
+[![react]][react-url]
 [![javascript]][javascript-url]
 
   <!-- [![jquery]][jquery-url] -->
   <!-- [![laravel]][laravel-url] -->
-
-[![next]][next-url]
-[![react]][react-url]
 
   <!-- [![svelte]][svelte-url] -->
   <!-- [![vue]][vue-url] -->
@@ -77,7 +76,7 @@ _I'd love to hear any feedback or just thoughts. Feel free to reach out at my co
   <!-- [![react-query]][react-query-url] -->
   <!-- [![react-router]][react-router-url] -->
 
-<!-- - **UI / CSS Frameworks & Libraries** -->
+- **UI / CSS Frameworks & Libraries**
 
   <!-- [![html]][html-url] -->
   <!-- [![css]][css-url] -->
@@ -92,8 +91,10 @@ _I'd love to hear any feedback or just thoughts. Feel free to reach out at my co
   <!-- [![react-native]][react-native-url] -->
   <!-- [![flutter]][flutter-url] -->
 
-<!-- - **Misc Frontend Libraries & Packages** -->
-  <!-- [![framer]][framer-url] -->
+- **Misc Frontend Libraries & Packages**
+
+[![framer]][framer-url]
+
   <!-- [![fontawesome]][fontawesome-url] -->
 
 <!-- - **UI/UX / Graphic Design** -->
@@ -107,7 +108,8 @@ _I'd love to hear any feedback or just thoughts. Feel free to reach out at my co
   <!-- [![express]][express-url] -->
   <!-- [![axios]][axios-url] -->
   <!-- [![postman]][postman-url] -->
-  <!-- [![openai]][openai-url] -->
+
+[![openai]][openai-url]
 
 <!-- - **Database** -->
   <!-- [![fauna]][fauna-url] -->
@@ -116,9 +118,11 @@ _I'd love to hear any feedback or just thoughts. Feel free to reach out at my co
   <!-- [mongoose] -->
   <!-- [![postgresql]][postgresql-url] -->
 
-<!-- - **Content Management** -->
+- **Content Management**
   <!-- [![contentful]][contentful-url] -->
   <!-- [![strapi]][strapi-url] -->
+
+[![sanity]][sanity-url]
 
 <!-- #### DevOps -->
 
@@ -176,8 +180,7 @@ _I'd love to hear any feedback or just thoughts. Feel free to reach out at my co
 
 [![eslint]][eslint-url]
 [![prettier]][prettier-url]
-
-<!-- [![copilot]][copilot-url] -->
+[![copilot]][copilot-url]
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -292,16 +295,25 @@ _For more examples, please refer to the [Documentation][repo-url]_ -->
 1. Bootstrap used as the CSS library.
 2. SCSS compatible. -->
 
-<!-- TODO: UPDATE ROADMAP -->
+## Roadmap
 
-<!-- ## Roadmap
+- [ ] fix md formatting on posts
+- [ ] add multipage routing to homepage
+- [ ] add TS to new components
+- [ ] use sanity for all graphics
+  - [ ] convert new components to sanity
+  - [ ] create schema for new graphics based on use
+  - [ ] add graphics from new components
+- [ ] create user section
+  - [ ] add email auth to homepage
+  - [ ] conditionally render auth content
+- [ ] add slack channel
+- [ ] add discord channel
+- [ ] add podcast
+- [ ] connect twitch
+<!-- - [ ] - [ ] Nested Feature -->
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
-
-See the [open issues][issues-url] for a full list of proposed features (and known issues). -->
+See the [open issues][issues-url] for a full list of proposed features (and known issues).
 
 ## License
 
@@ -328,6 +340,7 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 ## Acknowledgments
 
 - [Sonny Sangha]('')
+- [JavaScript Mastery]('')
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -337,7 +350,7 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [project-screenshot]: public/project-screenshot.jpg
-[project-url]: https://thelightningrealm.vercel.app/
+[project-url]: https://lightnin-grealm.vercel.app/
 [repo-url]: https://github.com/justintsugranes/project_lightning-realm.git
 [contributors-shield]: https://img.shields.io/github/contributors/justintsugranes/project_lightning-realm.svg?style=for-the-badge
 [contributors-url]: https://github.com/justintsugranes/project_lightning-realm/graphs/contributors
@@ -350,7 +363,6 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 [license-shield]: https://img.shields.io/github/license/justintsugranes/project_lightning-realm.svg?style=for-the-badge
 [license-url]: https://github.com/justinTsugranes/project_lightning-realm/blob/main/LICENSE.md
 
-<!-- TODO: UNCOMMENT USED TECH -->
 <!-- TECH SHIELD VARIABLES -->
 
 <!-- WEB LANGUANGES /  LIBRARIES / FRAMEWORKS -->
@@ -414,10 +426,12 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 
 <!-- [fontawesome]: https://img.shields.io/badge/FontAwesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white
 [fontawesome-url]: https://fontawesome.com/ -->
-<!-- [heroicons]: https://img.shields.io/badge/HeroIcons-528DD7?style=for-the-badge&logo=heroicons&logoColor=white
-[heroicons-url]: https://heroicons.com/ -->
-<!-- [framer]: https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white
-[framer-url]: https://www.framer.com/motion/ -->
+
+[heroicons]: https://img.shields.io/badge/HeroIcons-528DD7?style=for-the-badge&logo=heroicons&logoColor=white
+[heroicons-url]: https://heroicons.com/
+[framer]: https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white
+[framer-url]: https://www.framer.com/motion/
+
 <!-- [storybook]: https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white
 [storybook-url]: https://storybook.js.org/ -->
 <!-- [swiper]: https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white
@@ -444,8 +458,8 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 
 <!-- APIS -->
 
-<!-- [openai]: https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white
-[openai-url]: https://openai.com/ -->
+[openai]: https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white
+[openai-url]: https://openai.com/
 
 <!-- DATABASE -->
 
@@ -465,8 +479,9 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 [contentful-url]: https://www.contentful.com/ -->
 <!-- [strapi]: https://img.shields.io/badge/Strapi-2F2E8B?style=for-the-badge&logo=strapi&logoColor=white
 [strapi-url]: https://strapi.io/ -->
-<!-- [sanity]: https://img.shields.io/badge/Sanity-2F2E8B?style=for-the-badge&logo=sanity&logoColor=white
-[sanity-url]: https://sanity.io/ -->
+
+[sanity]: https://img.shields.io/badge/Sanity-2F2E8B?style=for-the-badge&logo=sanity&logoColor=white
+[sanity-url]: https://sanity.io/
 
 <!-- AUTH / SECURITY-->
 
@@ -540,6 +555,5 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 [eslint-url]: https://eslint.org/
 [prettier]: https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white
 [prettier-url]: https://prettier.io/
-
-<!-- [copilot]: https://img.shields.io/badge/CoPilot-181717?style=for-the-badge&logo=github&logoColor=white
-[copilot-url]: https://github.com/features/copilot -->
+[copilot]: https://img.shields.io/badge/CoPilot-181717?style=for-the-badge&logo=github&logoColor=white
+[copilot-url]: https://github.com/features/copilot

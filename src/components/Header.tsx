@@ -18,10 +18,10 @@ const Header = () => {
 
       <div>
         <Link
-          className="tet-sm flex items-center rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-3 text-center drop-shadow-md hover:from-pink-500 hover:to-yellow-500 md:text-base"
-          href="https://www.totalmusicmarketing.com/contact-us"
+          className="flex items-center rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-3 text-center text-sm drop-shadow-md hover:from-pink-500 hover:to-yellow-500 md:text-base"
+          href="https://lightning-realm.vercel.app/"
         >
-          Contact us now
+          ENTER THE LIGHTNING REALM
         </Link>
       </div>
     </header>
