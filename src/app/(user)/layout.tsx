@@ -1,28 +1,36 @@
 import {Header, Banner, Footer} from '@/components'
-import {About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World} from '../../sections'
+// import {About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World} from '../../sections'
 import '../globals.css'
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
       <body className="mx-auto max-w-7xl">
-        <Header />
+        <div className="relative ">
+          <Header />
 
-        <Banner />
+          <Banner />
+        </div>
 
         <div className="relative">
-          <About />
-          <div className="gradient-03 z-0" />
+          {/* <About /> */}
+
+          {/* <div className="gradient-03 z-0" /> */}
+
           {children}
           {/* <Explore /> */}
-          <div className="gradient-04 z-0" />
+
+          {/* <div className="gradient-04 z-0" /> */}
         </div>
+
         {/* <div className="relative">
           <GetStarted />
           <div className="gradient-04 z-0" />
           <WhatsNew />
         </div> */}
+
         {/* <World /> */}
+
         {/* <div className="relative">
           <Insights />
           {children}
@@ -30,7 +38,9 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
           <Feedback />
         </div> */}
 
-        <Footer />
+        <div className="relative">
+          <Footer />
+        </div>
       </body>
     </html>
   )

@@ -39,7 +39,7 @@ async function Post({params: {slug}}: Props) {
   const post = await sanityClient.fetch(query, {slug})
 
   return (
-    <article className="px-10 pb-28">
+    <article className="px-10 pb-28 ">
       <section className="space-y-2 border border-[#0cb3d5] text-white">
         <div className="min-h-56 relative flex flex-col justify-between md:flex-row">
           <div className=" absolute top-0 h-full w-full p-10 opacity-10 blur-sm">

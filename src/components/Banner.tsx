@@ -1,6 +1,6 @@
 function Banner() {
   return (
-    <div className="mb-10 flex flex-col justify-between px-10 py-5 font-bold lg:flex-row lg:space-x-5">
+    <div className="mx-auto mb-10 flex max-w-7xl flex-col justify-between px-10 py-5 font-bold lg:flex-row lg:space-x-5">
       <div>
         <h1 className="text-7xl drop-shadow-md">
           the{' '}
@@ -16,8 +16,9 @@ function Banner() {
       </div>
 
       <p className="mt-5 max-w-sm text-gray-400 drop-shadow-md md:mt-2">
-        In-depth coverage of the most modern tools and trends in the technology space | Weekly
-        podcasts & more!
+        Using cutting-edge tech to provide in-depth coverage of the most modern tools and trends
+        {/* in the technology space */}
+        {/* | Weekly podcasts & more! */}
       </p>
     </div>
   )
