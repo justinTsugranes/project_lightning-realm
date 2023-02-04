@@ -1,5 +1,7 @@
 'use client'
 
+import Image from 'next/image'
+
 import {motion} from 'framer-motion'
 import {fadeIn} from '../../utils/motion'
 
@@ -9,7 +11,7 @@ const InsightCard = ({imgUrl, title, subtitle, index}) => (
     className="flex flex-col gap-4 md:flex-row"
   >
     {/* Left/ img */}
-    <img
+    <Image
       src={imgUrl}
       alt="planet-01"
       className="h-[250px] w-full rounded-[32px] object-cover md:w-[270px]"
@@ -25,7 +27,7 @@ const InsightCard = ({imgUrl, title, subtitle, index}) => (
       </div>
       {/* button */}
       <div className="hidden h-[100px] w-[100px] items-center justify-center rounded-full border-[1px] border-white bg-transparent lg:flex">
-        <img src="arrow.svg" alt="arrow" className="h-[40%] w-[40%] object-contain" />
+        <Image src="arrow.svg" alt="arrow" className="h-[40%] w-[40%] object-contain" />
       </div>
     </div>
   </motion.div>

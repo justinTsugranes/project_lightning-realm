@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import {motion} from 'framer-motion'
 
 import styles from '../../src/app/styles'
@@ -8,7 +9,7 @@ import {fadeIn, staggerContainer, zoomIn} from '../../utils/motion'
 const Feedback = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
-      variants={staggerContainer}
+      variants={staggerContainer('0.1s', '0.2s')}
       initial="hidden"
       whileInView="show"
       viewport={{once: false, amount: 0.25}}
@@ -28,8 +29,8 @@ const Feedback = () => (
           </p>
         </div>
         <p className="mt=[24px] text-[18px] font-normal leading-[39px] text-white sm:text-[24px] sm:leading-[45px]">
-          "Interaction in the metaverse is more realistic and immersed than ever before. To step
-          into the metaverse is to step into the future"
+          &quot;Interaction in the metaverse is more realistic and immersed than ever before. To
+          step into the metaverse is to step into the future&quot;
         </p>
       </motion.div>
 
@@ -37,7 +38,7 @@ const Feedback = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="relative flex flex-1 items-center justify-center"
       >
-        <img
+        <Image
           src="/images/planet-09.png"
           alt="planet-09"
           className="h-auto min-h-[210px] w-full rounded-[40px] object-cover lg:h-[610px]"
@@ -47,7 +48,11 @@ const Feedback = () => (
           variants={zoomIn(0.4, 1)}
           className="absolute -left-[10%] top-[3%] hidden lg:block"
         >
-          <img src="/images/stamp.png" alt="stamp" className="h-[155px] w-[155px] object-contain" />
+          <Image
+            src="/images/stamp.png"
+            alt="stamp"
+            className="h-[155px] w-[155px] object-contain"
+          />
         </motion.div>
       </motion.div>
     </motion.div>

@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import {motion} from 'framer-motion'
 
 import styles from '../app/styles'
@@ -10,14 +11,14 @@ import {staggerContainer, fadeIn, planetVariants} from '../../utils/motion'
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
-      variants={staggerContainer}
+      variants={staggerContainer('0.1s', '0.2s')}
       initial="hidden"
       whileInView="show"
       viewport={{once: false, amount: 0.25}}
       className={`${styles.innerWidth} mx-auto flex flex-col gap-8 lg:flex-row`}
     >
       <motion.div variants={planetVariants('left')} className={`flex-1 ${styles.flexCenter}`}>
-        <img
+        <Image
           src="/images/get-started.png"
           alt="get-started"
           className="h-[90%] w-[90%] object-contain"
@@ -27,8 +28,14 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex flex-[0.75] flex-col justify-center"
       >
-        <TypingText title="| How Metaversus Works" />
-        <TitleText title={<>Get started with just a few clicks</>} />
+        <TypingText
+          title="| How Metaversus Works"
+          textStyles={'text-[14px] font-normal text-secondary-white'}
+        />
+        <TitleText
+          title={<>Get started with just a few clicks</>}
+          textStyles={'mt-[8px] text-[40px] font-bold text-white md:text-[64px]'}
+        />
         <div className="mt-[31px] flex max-w-[370px] flex-col gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

@@ -1,5 +1,7 @@
 'use client'
 
+import Image from 'next/image'
+
 import {motion} from 'framer-motion'
 
 import styles from '../../src/app/styles'
@@ -14,12 +16,12 @@ const ExploreCard = ({id, imgUrl, title, index, active, handleClick}) => (
     className={`relative ${
       // Conditionally apply a different set of flex values based on the active prop
       active === id ? 'flex-[10] lg:flex-[3.5]' : 'flex-[2] lg:flex-[0.5]'
-    } ease-out-flex flex h-[700px] min-w-[170px] cursor-pointer items-center justify-center transition-[flex] duration-[0.7s]`}
+    } flex h-[700px] min-w-[170px] cursor-pointer items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex`}
     // Set the onClick event handler to the handleClick prop function
     onClick={() => handleClick(id)}
   >
     {/* Render an img element with the specified src, alt, and class names */}
-    <img
+    <Image
       src={imgUrl}
       alt="planet-04"
       className="absolute h-full w-full rounded-[24px] object-cover"
@@ -38,8 +40,8 @@ const ExploreCard = ({id, imgUrl, title, index, active, handleClick}) => (
         <div
           className={`${styles.flexCenter} glassmorphism mb-[16px] h-[60px] w-[60px]  rounded-[24px]`}
         >
-          {/* Render an img element with the specified src, alt, and class names */}
-          <img src="/headset.svg" alt="headset" className="h-1/2 w-1/2 object-contain" />
+          {/* Render an Image element with the specified src, alt, and class names */}
+          <Image src="/headset.svg" alt="headset" className="h-1/2 w-1/2 object-contain" />
         </div>
         {/* Render a paragraph element with the specified class names */}
         <p className="text-[16px] font-normal uppercase leading-[20px] text-white">

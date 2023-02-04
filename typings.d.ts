@@ -60,7 +60,7 @@ interface Category extends Base {
   description: string
 }
 
-interface MainImae {
+interface MainImage {
   _type: 'image'
   asset: Reference
 }

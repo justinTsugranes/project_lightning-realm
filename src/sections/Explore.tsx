@@ -15,7 +15,7 @@ const Explore = () => {
   return (
     <section className={`${styles.paddings}`} id="explore">
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer('0.1s', '0.2s')}
         initial="hidden"
         whileInView="show"
         viewport={{once: false, amount: 0.25}}

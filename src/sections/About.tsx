@@ -10,7 +10,7 @@ const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <div className="gradient-02 z-0" />
     <motion.div
-      variants={staggerContainer}
+      variants={staggerContainer('0.1s', '0.2s')}
       initial="hidden"
       whileInView="show"
       viewport={{once: false, amount: 0.25}}
@@ -20,7 +20,7 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="text-secondary-white mt-[8px] text-center text-[20px] font-normal sm:text-[32px]"
+        className="mt-[8px] text-center text-[20px] font-normal text-secondary-white sm:text-[32px]"
       >
         Step into <span className="font-extrabold text-white">the future</span> of web development.
         As pioneers in exploring the latest and greatest in tech, we bring you the inside scoop on

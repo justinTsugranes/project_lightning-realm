@@ -10,7 +10,7 @@ import {InsightCard, TitleText, TypingText} from '../components'
 const Insights = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
-      variants={staggerContainer}
+      variants={staggerContainer('0.1s', '0.2s')}
       initial="hidden"
       whileInView="show"
       viewport={{once: false, amount: 0.25}}

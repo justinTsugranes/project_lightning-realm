@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import {motion} from 'framer-motion'
 import {socials} from '../constants'
 
@@ -45,9 +46,8 @@ const Footer = () => (
           </p>
           <div className="flex gap-4">
             {socials.map((social) => (
-              <Link href={social.url}>
-                <img
-                  key={social.name}
+              <Link href={social.url} key={social.name}>
+                <Image
                   src={social.image}
                   alt={social.name}
                   className="h-[24px] w-[24px] cursor-pointer object-contain drop-shadow-md"
