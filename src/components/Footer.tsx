@@ -49,6 +49,8 @@ const Footer = () => (
               <Link href={social.url} key={social.name}>
                 <Image
                   src={social.image}
+                  width={100}
+                  height={100}
                   alt={social.name}
                   className="h-[24px] w-[24px] cursor-pointer object-contain drop-shadow-md"
                 />

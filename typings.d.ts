@@ -69,3 +69,8 @@ interface Title {
   _type: 'string'
   current: string
 }
+
+interface TextStyles {
+  color: string
+  fontSize: string
+}
