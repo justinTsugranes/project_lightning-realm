@@ -3,16 +3,16 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header className="mx-auto flex items-center justify-between space-x-2 px-10 py-5 font-bold">
+    <header className="mx-auto flex max-w-7xl items-center justify-between space-x-2 px-10 py-5 font-bold">
       <div className="flex items-center space-x-2">
         <Link href="/">
           <Image
             className="rounded-full"
-            src="/lightning-realm.png"
+            src="/lightning-realm.webp"
             height={50}
             width={50}
             alt="logo"
-          ></Image>
+          />
         </Link>
       </div>
 

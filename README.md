@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/justintsugranes/">
-    <img src="public/logo.jpeg" alt="Logo" width="100%" height="100%">
+    <img src="public/logo.webp" alt="Logo" width="100%" height="100%">
   </a>
 </div>
 
@@ -349,7 +349,7 @@ Send me some [![bitcoin]][bitcoin-address] or [![ethereum]][ethereum-address] --
 <!-- LINK & IMAGE VARIABLES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[project-screenshot]: public/project-screenshot.jpg
+[project-screenshot]: public/project-screenshot.webp
 [project-url]: https://lightnin-grealm.vercel.app/
 [repo-url]: https://github.com/justintsugranes/project_lightning-realm.git
 [contributors-shield]: https://img.shields.io/github/contributors/justintsugranes/project_lightning-realm.svg?style=for-the-badge

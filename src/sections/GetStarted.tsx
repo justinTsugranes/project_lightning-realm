@@ -19,7 +19,7 @@ const GetStarted = () => (
     >
       <motion.div variants={planetVariants('left')} className={`flex-1 ${styles.flexCenter}`}>
         <Image
-          src="/images/get-started.png"
+          src="/images/get-started.webp"
           alt="get-started"
           className="h-[90%] w-[90%] object-contain"
         />
@@ -29,7 +29,7 @@ const GetStarted = () => (
         className="flex flex-[0.75] flex-col justify-center"
       >
         <TypingText
-          title="| How Metaversus Works"
+          title="| How The Lightning Realm Works"
           textStyles={'text-[14px] font-normal text-secondary-white'}
         />
         <TitleText

@@ -34,7 +34,7 @@ const Hero = () => (
       >
         <div className="hero-gradient absolute -top-[30px] z-[0] h-[300px] w-full rounded-tl-[140px]" />
         <Image
-          src="/cover.png"
+          src="/cover.webp"
           alt="cover"
           className="relative z-10 h-[350px] w-full rounded-tl-[140px] object-cover sm:h-[500px]"
         />
@@ -42,7 +42,7 @@ const Hero = () => (
         <a href="#explore">
           <div className="relative z-10 -mt-[-50px] flex w-full justify-end pr-[40px] sm:-mt-[70px]">
             <Image
-              src="/stamp.png"
+              src="/stamp.webp"
               alt="stamp"
               className="h-[100px] w-[100px] object-contain sm:h-[155px] sm:w-[155px]"
             />

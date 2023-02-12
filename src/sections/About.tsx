@@ -1,7 +1,7 @@
 'use client'
 
 import {motion} from 'framer-motion'
-import {TypingText} from '../components'
+// import {TypingText} from '../components'
 
 import styles from '../../src/app/styles'
 import {fadeIn, staggerContainer} from '../../utils/motion'
@@ -16,7 +16,7 @@ const About = () => (
       viewport={{once: false, amount: 0.25}}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      {/* <TypingText title="| About Metaversus" textStyles="text-center" /> */}
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}

@@ -5,21 +5,17 @@ import '../globals.css'
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className="mx-auto max-w-7xl">
+      <body>
         <div className="relative ">
           <Header />
-
           <Banner />
         </div>
 
         <div className="relative">
           {/* <About /> */}
-
-          {/* <div className="gradient-03 z-0" /> */}
-
+          <div className="gradient-03 z-0" />
           {children}
           {/* <Explore /> */}
-
           {/* <div className="gradient-04 z-0" /> */}
         </div>
 
@@ -39,6 +35,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
         </div> */}
 
         <div className="relative">
+          <div className="footer-gradient" />
           <Footer />
         </div>
       </body>

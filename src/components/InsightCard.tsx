@@ -8,11 +8,13 @@ import {fadeIn} from '../../utils/motion'
 const InsightCard = ({imgUrl, title, subtitle, index}) => (
   <motion.div
     variants={fadeIn('up', 'spring', index * 0.5, 1)}
-    className="flex flex-col gap-4 md:flex-row"
+    className="mx-auto flex max-w-7xl flex-col gap-4 md:flex-row"
   >
     {/* Left/ img */}
     <Image
       src={imgUrl}
+      height={250}
+      width={270}
       alt="planet-01"
       className="h-[250px] w-full rounded-[32px] object-cover md:w-[270px]"
     />
@@ -27,7 +29,13 @@ const InsightCard = ({imgUrl, title, subtitle, index}) => (
       </div>
       {/* button */}
       <div className="hidden h-[100px] w-[100px] items-center justify-center rounded-full border-[1px] border-white bg-transparent lg:flex">
-        <Image src="arrow.svg" alt="arrow" className="h-[40%] w-[40%] object-contain" />
+        <Image
+          src="arrow.svg"
+          height={500}
+          width={500}
+          alt="arrow"
+          className="h-[40%] w-[40%] object-contain"
+        />
       </div>
     </div>
   </motion.div>

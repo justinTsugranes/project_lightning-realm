@@ -39,8 +39,10 @@ const Feedback = () => (
         className="relative flex flex-1 items-center justify-center"
       >
         <Image
-          src="/images/planet-09.png"
+          src="/images/planet-09.webp"
           alt="planet-09"
+          height={610}
+          width={610}
           className="h-auto min-h-[210px] w-full rounded-[40px] object-cover lg:h-[610px]"
         />
 
@@ -49,8 +51,10 @@ const Feedback = () => (
           className="absolute -left-[10%] top-[3%] hidden lg:block"
         >
           <Image
-            src="/images/stamp.png"
+            src="/images/stamp.webp"
             alt="stamp"
+            height={155}
+            width={155}
             className="h-[155px] w-[155px] object-contain"
           />
         </motion.div>

@@ -1,27 +1,27 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/images/planet-01.png',
+    imgUrl: '/images/planet-01.webp',
     title: 'The Hogwarts',
   },
   {
     id: 'world-2',
-    imgUrl: '/images/planet-02.png',
+    imgUrl: '/images/planet-02.webp',
     title: 'The Upside Down',
   },
   {
     id: 'world-3',
-    imgUrl: '/images/planet-03.png',
+    imgUrl: '/images/planet-03.webp',
     title: 'Kadirojo Permai',
   },
   {
     id: 'world-4',
-    imgUrl: '/imaes/planet-04.png',
+    imgUrl: '/imaes/planet-04.webp',
     title: 'Paradise Island',
   },
   {
     id: 'world-5',
-    imgUrl: '/images/planet-05.png',
+    imgUrl: '/images/planet-05.webp',
     title: 'Hawkins Labs',
   },
 ]
@@ -48,19 +48,19 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/images/planet-06.png',
+    imgUrl: '/images/planet-06.webp',
     title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
     subtitle:
       'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
   {
-    imgUrl: '/images/planet-07.png',
+    imgUrl: '/images/planet-07.webp',
     title: '7 tips to easily master the madness of the Metaverse',
     subtitle:
       'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
   },
   {
-    imgUrl: '/images/planet-08.png',
+    imgUrl: '/images/planet-08.webp',
     title: 'With one platform you can explore the whole world virtually',
     subtitle:
       'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',

@@ -47,6 +47,8 @@ async function Post({params: {slug}}: Props) {
               className="mx-auto object-cover object-center"
               src={urlFor(post.mainImage).url()}
               alt={post.author.name}
+              height={40}
+              width={40}
               fill
             />
           </div>

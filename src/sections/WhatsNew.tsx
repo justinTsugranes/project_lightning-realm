@@ -26,7 +26,7 @@ const WhatsNew = () => (
           textStyles={'text-[14px] font-normal text-secondary-white'}
         />
         <TitleText
-          title={<>What&apos;s new in MetaVersus?</>}
+          title={<>What&apos;s new in the Lightning Realm?</>}
           textStyles={'mt-[8px] text-[40px] font-bold text-white md:text-[64px]'}
         />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
@@ -37,7 +37,7 @@ const WhatsNew = () => (
       </motion.div>
       <motion.div variants={planetVariants('right')} className={`flex-1 ${styles.flexCenter}`}>
         <Image
-          src="/images/whats-new.png"
+          src="/images/whats-new.webp"
           alt="get-started"
           className="h-[90%] w-[90%] object-contain"
         />

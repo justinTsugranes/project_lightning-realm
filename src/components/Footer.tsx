@@ -13,9 +13,10 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.paddings} relative py-8 `}
+    className={`${styles.paddings} relative mx-auto max-w-7xl py-8`}
   >
-    <div className="footer-gradient" />
+    {/* <div className="footer-gradient" /> */}
+
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex flex-wrap items-center justify-between gap-5">
         <h4 className="text-[44px] font-bold text-white drop-shadow-md md:text-[64px]">
