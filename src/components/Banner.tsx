@@ -15,7 +15,7 @@ function Banner() {
         </h2>
       </div>
 
-      <p className="mt-5 max-w-sm text-cyan-100 drop-shadow-md md:mt-2">
+      <p className="mt-5 max-w-sm text-cyan-200 drop-shadow-md md:mt-2">
         Using cutting-edge tech to provide in-depth coverage of the most modern tools and trends
         {/* in the technology space */}
         {/* | Weekly podcasts & more! */}

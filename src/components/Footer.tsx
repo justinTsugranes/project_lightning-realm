@@ -24,9 +24,9 @@ const Footer = () => {
 
       <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
         <div className="flex flex-wrap items-center justify-between gap-5">
-          <h4 className="text-[44px] font-bold text-white drop-shadow-md md:text-[64px]">
+          <h3 className="text-[44px] font-bold text-white drop-shadow-md md:text-[64px]">
             Enter the Realm
-          </h4>
+          </h3>
 
           {/* TODO: add conditional route: (userIsLoggedIn ? content : signup) */}
           <Link
